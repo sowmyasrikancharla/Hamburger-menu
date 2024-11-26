@@ -1,0 +1,113 @@
+/* Write your CSS here */
+@media (min-width: 768px) {
+  .logo {
+    height: 70px;
+    width: 70px;
+    margin: 10px;
+    background-color: #ffffff;
+    outline: none;
+    border: 1px #ffffff solid;
+  }
+  .header-con {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px #dcdcdc solid;
+    width: 100vw;
+  }
+  .Popup-con {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .popup-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #ffffff;
+    width: 100vw;
+    height: 100vh;
+  }
+  .flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .icons {
+    height: 45px;
+    width: 45px;
+    margin-right: 20px;
+  }
+  .cross {
+    height: 45px;
+    width: 45px;
+    margin-left: 90%;
+    margin-top: 30px;
+    cursor: pointer;
+  }
+  .ham {
+    height: 45px;
+    width: 45px;
+    cursor: pointer;
+  }
+}
+/* Write your CSS here */
+@media (max-width: 768px) {
+  .logo {
+    height: 50px;
+    width: 50px;
+    margin: 5px;
+    background-color: #ffffff;
+    outline: none;
+    border: 1px #ffffff solid;
+  }
+  .header-con {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px #dcdcdc solid;
+    width: 100vw;
+  }
+  .Popup-con {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .popup-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffffff;
+    width: 100vw;
+    height: 100vh;
+  }
+  .flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .icons {
+    height: 45px;
+    width: 45px;
+    margin-right: 20px;
+  }
+  .cross {
+    height: 45px;
+    width: 45px;
+    margin-left: 90%;
+    margin-top: 100px;
+    cursor: pointer;
+  }
+  .ham {
+    height: 45px;
+    width: 45px;
+    cursor: pointer;
+  }
+}

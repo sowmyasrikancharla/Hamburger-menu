@@ -1,0 +1,35 @@
+/* Write your CSS here */
+.not-found-con {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Roboto';
+  background-color: #ffffff;
+}
+.not-found-img {
+  width: 300px;
+}
+.not-found-head {
+  font-size: 25px;
+  color: #616e7c;
+}
+
+.not-found-dis {
+  font-size: 15px;
+  color: #aeb3b9;
+  font-weight: 500;
+}
+
+@media screen and (max-width: 576px) {
+  .not-found-img {
+    width: 180px;
+  }
+  .not-found-head {
+    font-size: 18px;
+  }
+
+  .not-found-dis {
+    font-size: 12px;
+  }
+}
